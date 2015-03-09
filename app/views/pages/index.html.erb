@@ -1,0 +1,12 @@
+<h1 id="output"></h1>
+<p>The above text is output from our ES6 module "greeter". It should also show up in your browser console. Hooray!</p>
+
+<script>
+var greeter = require('greeter')["default"];
+var output = greeter('Kristian Freeman');
+
+var el = document.getElementById('output');
+el.textContent = output;
+
+console.log(output);
+</script>
